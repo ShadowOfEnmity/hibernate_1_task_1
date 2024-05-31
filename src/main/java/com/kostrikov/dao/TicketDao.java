@@ -1,10 +1,7 @@
-package com.kostrikov.Dao;
+package com.kostrikov.dao;
 
-import com.kostrikov.Entity.Ticket;
-import com.kostrikov.utils.HibernateConfiguration;
-import lombok.Cleanup;
+import com.kostrikov.entity.Ticket;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 
 import java.util.Optional;
 

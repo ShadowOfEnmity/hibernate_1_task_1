@@ -1,6 +1,6 @@
 package com.kostrikov.utils;
 
-import com.kostrikov.Entity.Ticket;
+import com.kostrikov.entity.Ticket;
 import lombok.experimental.UtilityClass;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;

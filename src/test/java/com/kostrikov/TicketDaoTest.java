@@ -1,12 +1,11 @@
 package com.kostrikov;
 
-import com.kostrikov.Dao.TicketDao;
-import com.kostrikov.Entity.Ticket;
+import com.kostrikov.dao.TicketDao;
+import com.kostrikov.entity.Ticket;
 import com.kostrikov.utils.HibernateConfiguration;
 import lombok.Cleanup;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.boot.beanvalidation.HibernateTraversableResolver;
 import org.junit.jupiter.api.*;
 
 import java.util.Optional;
